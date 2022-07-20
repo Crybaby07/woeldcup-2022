@@ -106,11 +106,14 @@ aside a:hover{
     
 }
 
-.blog a{
+.blog button{
     text-decoration: none;
+    text-align: left;
+    width: 20%;
+    margin:5px 0 0 15px;
     color: #161616;
-    border: 1px solid lightgray;
-    padding: 5px;
+    border: 2px solid lightgray;
+    padding: 5px 0 5px 10px;
     border-radius: 7px;
 }
 
@@ -187,3 +190,40 @@ footer hr{
     transition: 0.5s;
     transform: translate(2px);
 }
+
+
+
+.matches{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #6c757d;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.match{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.match img{
+    width: 100%;
+   border-radius:5px;
+}
+
+.match p{
+    margin: 0 20px;
+}
+
+.matches h5{
+    font-size: 20px;
+    color: #161616;
+}
+
+.matches small{
+    color: #495057;
+}
+
